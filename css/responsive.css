@@ -1,0 +1,38 @@
+/* laptop s landscap */
+@media screen and (max-width: 1025px) {
+    body {
+        width: 1024px;
+    }
+    .main-section {
+        width: 105%;
+    }
+    .discount {
+        width: 105%;
+    }
+    .Subscribe {
+        margin-left: 43%;
+    }
+    .review p {
+        margin-left: 31px;
+    }
+    .customer .more {
+        position: absolute;
+        bottom: 13%;
+        left: 26%;
+    }
+    .customer span {
+        position: absolute;
+        left: 621%;
+        font-size: 15px;
+        color: gray;
+    }
+}
+/* mobile landscap */
+@media screen and (max-width: 500px) {
+    .main-section {
+        width: 106%;
+        }
+    .discount {
+        width: 106%;
+    }
+}
